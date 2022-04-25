@@ -4,6 +4,7 @@ pipeline {
         stage('checkout source'){
             steps{
                 echo 'checkout source'
+                git 'https://github.com/sunym101/spring-es.git'
             }
         }
 
